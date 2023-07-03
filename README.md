@@ -1,3 +1,9 @@
+# HTML, CSS, and Git: Code Refactor for Horiseon Social Solution Services, Inc.
+
+## Description
+
+Refactoring a code from the marketing agency for their existing site to make it more accessible
+
 ## User Story
 
 ```
