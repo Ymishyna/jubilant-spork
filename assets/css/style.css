@@ -38,6 +38,8 @@ ul {
     list-style-type: none;
 }
 
+/* list for nav tool bar */
+
 li {
     display: inline-block;
     margin-left: 25px;
@@ -52,6 +54,8 @@ p {
     font-size: 16px;
 }
 
+/* main big picture in the middle of app */
+
 #hero {
     height: 800px;
     width: 100%;
@@ -61,11 +65,29 @@ p {
     background-position: center;
 }
 
+/* main content with articles */
+
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+article img {
+    max-height: 200px;
+}
+
+/* pictures reflecting the main idea of each article  */
 
 .float-left {
     float: left;
@@ -76,6 +98,14 @@ main {
     float: right;
     margin-left: 25px;
 }
+
+
+.h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* side bar of the site */
 
 aside {
     margin-right: 20px;
@@ -98,29 +128,15 @@ h3 {
     text-align: center;
 }
 
+/* pictures that are coresponding to each section of aside bar  */
+
 section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-article img {
-    max-height: 200px;
-}
-
-.h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* footer */
 
 footer {
     padding: 30px;
