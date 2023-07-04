@@ -87,6 +87,11 @@ article img {
     max-height: 200px;
 }
 
+article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 /* pictures reflecting the main idea of each article  */
 
 .float-left {
@@ -97,12 +102,6 @@ article img {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-
-.h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* side bar of the site */
